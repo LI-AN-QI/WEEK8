@@ -30,7 +30,7 @@ socket.on('connect', function () {
 let currentColor;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth*0.99, windowHeight*0.9);
     background(255);
     
     //A button to change ellipse color
@@ -75,7 +75,7 @@ function mouseDragged() {
 function draw(datas) {
     noStroke();
     fill(datas.color.levels[0], datas.color.levels[1], datas.color.levels[2]);
-    ellipse(datas.x, datas.y, 40, 30); 
+    ellipse(datas.x, datas.y, 20, 20); 
 }
 
 //////////////console.log(obj):(the data sent to the server)

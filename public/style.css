@@ -1,7 +1,12 @@
 h1{
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 100;
     position: fixed;
-    color: #e0dddd;
-    margin-top: -1%;
+    color: #000000;
+    margin-top: -1.7%;
     margin-left: 45%;
+}
+
+#defaultCanvas0{
+    margin-top: 1%;
 }
