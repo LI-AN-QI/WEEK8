@@ -95,7 +95,7 @@ function changeCircleColor() {
     //set another random color to currentColor
     currentColor = color(random(255), random(255), random(255));
     //send the color data to all clients
-    socket.emit('colorChange', currentColor); //Q: didn't have a socket.on('colorChange',function()=>{})?
+    //socket.emit('colorChange', currentColor); //Q: didn't have a socket.on('colorChange',function()=>{})?
 }
 
 
